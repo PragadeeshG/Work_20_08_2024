@@ -1,0 +1,16 @@
+create table if not exists security_incentives(
+resource_id Integer not null,
+user_id Integer null,
+incentive_code varchar(255) null,
+voucher_code varchar(255) null,
+certification_voucher varchar(255) null,
+ecommerce_voucher varchar(255) null,
+voucher_validity_offered char null,
+incentive_strategy varchar(255) null,
+module_rating varchar(255) null,
+security_champion_name varchar(255) null,
+sdl_cycle_presence varchar(255) null,
+capability_indicator varchar(255) null,
+actionable_items varchar(255) null,
+staus varchar(255) null,
+constraint security_incentives_pk primary key(resource_id));

@@ -1,0 +1,15 @@
+create table if not exists security_champions(
+team_code Integer not null,
+policy_code varchar(255) null,
+champion_available char null,
+user_id Integer null,
+email_id varchar(255) null,
+application_status varchar(255) null,
+line_manager_id Integer null,
+max_vulnerabilities_allowed Integer null,
+present_issues varchar(255) null,
+vpt_count Integer null,
+nexus_count Integer null,
+status varchar(255) null,
+remarks varchar(255) null,
+constraint security_champions_pk primary key(team_code));
